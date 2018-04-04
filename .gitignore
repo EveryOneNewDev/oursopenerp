@@ -3,3 +3,8 @@
 # 忽略所有.o和 .a文件.
 
 *.[oa]
+# 忽略掉idea创建的项目文件
+.idea
+.idea/*.xml
+.idea/*/*.xml
+*.iml
